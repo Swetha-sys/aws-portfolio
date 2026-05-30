@@ -1,0 +1,114 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    margin: 0;
+    padding: 30px;
+    line-height: 1.7;
+}
+
+/* Main Container */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+}
+
+/* Header */
+h1 {
+    color: #0d47a1;
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #1565c0;
+    border-left: 5px solid #1565c0;
+    padding-left: 12px;
+    margin-top: 35px;
+}
+
+h3 {
+    color: #0d47a1;
+}
+
+/* Paragraph */
+p {
+    font-size: 17px;
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Section Cards */
+section {
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #1976d2;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Skills Highlight */
+.skills li {
+    background: #e3f2fd;
+    padding: 8px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+
+/* Project Links */
+a {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Certification Badge Style */
+.certification {
+    background: #e8f5e9;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    color: gray;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
